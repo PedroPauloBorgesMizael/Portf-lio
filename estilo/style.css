@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+.inicio {
+    
+    padding: 2% 0 0 10%;
+}
+.inicio_menu {
+    display: flex;
+    gap: 70px
+}
+.inicio_menu_link {
+    color: #22D4FD;
+    text-decoration: none;
+}
+.inicio_menu_link:hover {
+    text-shadow: 0 0 15px #22D4FD;
+}
+.apresentacao_conteudo_titulo {
+    font-family: "Montserrat", sans-serif;
+}
+.apresentacao {
+    padding: 0 120px 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+strong {
+    color: #22D4FD;
+}
+.apresentacao_links_acesse {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.apresentacao_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.apresentacao_links_link {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    border: 2px solid #22D4FD;
+    border-radius: 7px;
+    color: #f6f6f6;
+    width: 190px;
+    margin: 15px;
+    font-size: 18px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+}
+.apresentacao_links_link:hover {
+    background-color: #272727;
+}
+.imagens_links {
+    width: 20px;
+}
+.apresentacao_foto {
+    margin: 10%;
+    width: 500px;
+    border-radius: 16px;
+    border: 3px solid #22D4FD;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #272727;
+    font-family: "Montserrat", sans-serif;
+}

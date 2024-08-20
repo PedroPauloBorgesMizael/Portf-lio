@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+body {
+    background-color: black;
+}
+.inicio {
+    
+    padding: 2% 0 0 10%;
+}
+.inicio_menu {
+    display: flex;
+    gap: 70px
+}
+.inicio_menu_link {
+    color: #22D4FD;
+    text-decoration: none;
+}
+.inicio_menu_link:hover {
+    text-shadow: 0 0 15px #22D4FD;
+}
+.organizacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobremim {
+    color: #22D4FD; 
+    text-shadow: 0 0 15px #22D4FD;
+    font-size: 40px;
+}
+.texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 65px;
+}
+.texto_texto {
+    color: #f1f1f1;
+    margin: 1px;
+    font-size: 20px;
+}
+.apresentacao_foto {
+    margin: 5%;
+    width: 500px;
+    border-radius: 16px;
+    border: 3px solid #22D4FD;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #272727;
+    font-family: "Montserrat", sans-serif;
+}
